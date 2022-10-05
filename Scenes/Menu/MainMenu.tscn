@@ -1,0 +1,394 @@
+[gd_scene load_steps=81 format=2]
+
+[ext_resource path="res://Sprites/Menu/BG/Camada 2.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Menu/BG/Camada 4.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Menu/BG/Camada 5.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Menu/BG/Camada 6.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Menu/BG/Camada 8.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Menu/BG/Camada 7.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Menu/BG/Camada 9.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Menu/BG/Camada 10.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Menu/BG/Camada 11.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Menu/BG/Camada 12.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Menu/BG/Camada 1.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Menu/BG/Camada 3.png" type="Texture" id=12]
+[ext_resource path="res://Sprites/Menu/BG/Camada 13.png" type="Texture" id=13]
+[ext_resource path="res://Sprites/Menu/BG/Camada 15.png" type="Texture" id=14]
+[ext_resource path="res://Scripts/Menu/MainMenu.gd" type="Script" id=15]
+[ext_resource path="res://Sprites/Menu/Mega_man_logo.png" type="Texture" id=16]
+[ext_resource path="res://Fonts/Pixel12x10.ttf" type="DynamicFontData" id=17]
+[ext_resource path="res://Sprites/Menu/Box.png" type="Texture" id=18]
+[ext_resource path="res://Sfx/Common Sounds/menu_okay.wav" type="AudioStream" id=19]
+[ext_resource path="res://Sfx/Common Sounds/menu_move.wav" type="AudioStream" id=20]
+[ext_resource path="res://Sprites/Menu/BG/Camada 16.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/Menu/BG/Camada 17.png" type="Texture" id=22]
+[ext_resource path="res://Sprites/Menu/BG/Camada 18.png" type="Texture" id=23]
+[ext_resource path="res://Sprites/Menu/BG/Camada 14.png" type="Texture" id=24]
+[ext_resource path="res://Sprites/Menu/BG/Camada 24.png" type="Texture" id=25]
+[ext_resource path="res://Sprites/Menu/BG/Camada 30.png" type="Texture" id=26]
+[ext_resource path="res://Sprites/Menu/BG/Camada 28.png" type="Texture" id=27]
+[ext_resource path="res://Sprites/Menu/BG/Camada 32.png" type="Texture" id=28]
+[ext_resource path="res://Sprites/Menu/BG/Camada 35.png" type="Texture" id=29]
+[ext_resource path="res://Sprites/Menu/BG/Camada 19.png" type="Texture" id=30]
+[ext_resource path="res://Sprites/Menu/BG/Camada 36.png" type="Texture" id=31]
+[ext_resource path="res://Sprites/Menu/BG/Camada 21.png" type="Texture" id=32]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/2.png" type="Texture" id=33]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/7.png" type="Texture" id=34]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/0.png" type="Texture" id=35]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/3.png" type="Texture" id=36]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/9.png" type="Texture" id=37]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/4.png" type="Texture" id=38]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/6.png" type="Texture" id=39]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/8.png" type="Texture" id=40]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/5.png" type="Texture" id=41]
+[ext_resource path="res://Sprites/Player/Rockman-new/Run/1.png" type="Texture" id=42]
+[ext_resource path="res://Sprites/Menu/BG/Camada 29.png" type="Texture" id=43]
+[ext_resource path="res://Sprites/Menu/BG/Camada 31.png" type="Texture" id=44]
+[ext_resource path="res://Sprites/Menu/BG/Camada 20.png" type="Texture" id=45]
+[ext_resource path="res://Sprites/Menu/BG/Camada 33.png" type="Texture" id=46]
+[ext_resource path="res://Sprites/Menu/Zero/sprite_base.png" type="Texture" id=47]
+[ext_resource path="res://Sprites/Menu/BG/Camada 23.png" type="Texture" id=48]
+[ext_resource path="res://Sprites/Menu/BG/Camada 25.png" type="Texture" id=49]
+[ext_resource path="res://Sprites/Menu/BG/Camada 27.png" type="Texture" id=50]
+[ext_resource path="res://Sprites/Menu/BG/Camada 26.png" type="Texture" id=51]
+[ext_resource path="res://Sprites/Menu/BG/Camada 34.png" type="Texture" id=52]
+[ext_resource path="res://Sprites/Menu/BG/Camada 22.png" type="Texture" id=53]
+[ext_resource path="res://Sfx/Music/MM8-Stage-Select-Remix.ogg" type="AudioStream" id=54]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 11 ), ExtResource( 1 ), ExtResource( 12 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 13 ), ExtResource( 24 ), ExtResource( 14 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 30 ), ExtResource( 45 ), ExtResource( 32 ), ExtResource( 53 ), ExtResource( 48 ), ExtResource( 25 ), ExtResource( 49 ), ExtResource( 51 ), ExtResource( 50 ), ExtResource( 27 ), ExtResource( 43 ), ExtResource( 26 ), ExtResource( 44 ), ExtResource( 28 ), ExtResource( 46 ), ExtResource( 52 ), ExtResource( 29 ), ExtResource( 31 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="SpriteFrames" id=22]
+animations = [ {
+"frames": [ ExtResource( 35 ), ExtResource( 42 ), ExtResource( 33 ), ExtResource( 36 ), ExtResource( 38 ), ExtResource( 41 ), ExtResource( 39 ), ExtResource( 34 ), ExtResource( 40 ), ExtResource( 37 ) ],
+"loop": true,
+"name": "default",
+"speed": 18.0
+} ]
+
+[sub_resource type="Shader" id=28]
+code = "shader_type canvas_item;
+
+uniform vec4 flash_color : hint_color = vec4(1.0);
+uniform float flash_modifier : hint_range(0.0, 1.0) = 1;
+
+void fragment() {
+	vec4 color = texture(TEXTURE, UV);
+	color.rgb = mix(color.rgb, flash_color.rgb, flash_modifier );
+	COLOR = color;
+}"
+
+[sub_resource type="ShaderMaterial" id=29]
+shader = SubResource( 28 )
+shader_param/flash_color = Color( 0.0627451, 0.627451, 0, 1 )
+shader_param/flash_modifier = 1.0
+
+[sub_resource type="SpriteFrames" id=30]
+animations = [ {
+"frames": [ ExtResource( 47 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 16 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=23]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 17 )
+
+[sub_resource type="StyleBoxEmpty" id=13]
+
+[sub_resource type="StyleBoxEmpty" id=10]
+
+[sub_resource type="StyleBoxEmpty" id=7]
+
+[sub_resource type="StyleBoxEmpty" id=14]
+
+[sub_resource type="StyleBoxEmpty" id=4]
+
+[sub_resource type="DynamicFont" id=24]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 17 )
+
+[sub_resource type="StyleBoxEmpty" id=15]
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxEmpty" id=8]
+
+[sub_resource type="StyleBoxEmpty" id=16]
+
+[sub_resource type="StyleBoxEmpty" id=5]
+
+[sub_resource type="DynamicFont" id=25]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 17 )
+
+[sub_resource type="StyleBoxEmpty" id=17]
+
+[sub_resource type="StyleBoxEmpty" id=12]
+
+[sub_resource type="StyleBoxEmpty" id=9]
+
+[sub_resource type="StyleBoxEmpty" id=18]
+
+[sub_resource type="StyleBoxEmpty" id=6]
+
+[sub_resource type="Animation" id=26]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 257.5, 401 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.00201034, 0.08 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Start:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Exit:self_modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Fullscreen:self_modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=27]
+resource_name = "Start"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2, 2.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 290, 395 ), Vector2( 290, 256 ), Vector2( 290, 256 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 2, 2.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.002, 0.09 ), Vector2( 0.002, 0.09 ), Vector2( 0.11, 0.09 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Start:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.001, 2.5, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Exit:self_modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.001, 2.5, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Fullscreen:self_modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 2.5, 3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 15 )
+
+[node name="Bg" type="AnimatedSprite" parent="."]
+position = Vector2( 287.5, 159.5 )
+scale = Vector2( 0.844477, 0.961765 )
+frames = SubResource( 1 )
+frame = 7
+playing = true
+
+[node name="Animation" type="AnimatedSprite" parent="."]
+position = Vector2( 128, 267 )
+frames = SubResource( 22 )
+frame = 5
+playing = true
+
+[node name="Zero" type="AnimatedSprite" parent="."]
+material = SubResource( 29 )
+position = Vector2( 288, 159 )
+scale = Vector2( 1.34375, 1.375 )
+frames = SubResource( 30 )
+
+[node name="Name" type="AnimatedSprite" parent="."]
+position = Vector2( 287, 52 )
+scale = Vector2( 0.403947, 0.530928 )
+frames = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 257.5, 401 )
+scale = Vector2( 0.00201034, 0.08 )
+texture = ExtResource( 18 )
+
+[node name="Start" type="Button" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 251.0
+margin_top = 217.0
+margin_right = 331.0
+margin_bottom = 237.0
+focus_neighbour_top = NodePath("../Exit")
+mouse_filter = 2
+custom_colors/font_color_focus = Color( 0.945098, 1, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.956863, 0.0352941, 0.0352941, 0.713726 )
+custom_fonts/font = SubResource( 23 )
+custom_styles/hover = SubResource( 13 )
+custom_styles/pressed = SubResource( 10 )
+custom_styles/focus = SubResource( 7 )
+custom_styles/disabled = SubResource( 14 )
+custom_styles/normal = SubResource( 4 )
+text = "Start"
+
+[node name="Fullscreen" type="Button" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 215.0
+margin_top = 246.0
+margin_right = 364.0
+margin_bottom = 266.0
+mouse_filter = 2
+custom_colors/font_color_focus = Color( 1, 0.937255, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.0352941, 0.956863, 0.631373, 1 )
+custom_fonts/font = SubResource( 24 )
+custom_styles/hover = SubResource( 15 )
+custom_styles/pressed = SubResource( 11 )
+custom_styles/focus = SubResource( 8 )
+custom_styles/disabled = SubResource( 16 )
+custom_styles/normal = SubResource( 5 )
+text = "Fullscreen"
+
+[node name="Exit" type="Button" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 201.0
+margin_top = 277.0
+margin_right = 377.0
+margin_bottom = 297.0
+focus_neighbour_bottom = NodePath("../Start")
+mouse_filter = 2
+custom_colors/font_color_focus = Color( 1, 0.937255, 0, 1 )
+custom_colors/font_color_pressed = Color( 0.0352941, 0.956863, 0.631373, 1 )
+custom_fonts/font = SubResource( 25 )
+custom_styles/hover = SubResource( 17 )
+custom_styles/pressed = SubResource( 12 )
+custom_styles/focus = SubResource( 9 )
+custom_styles/disabled = SubResource( 18 )
+custom_styles/normal = SubResource( 6 )
+text = "Exit"
+
+[node name="ButtontPressed" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 19 )
+volume_db = -13.109
+
+[node name="FocusEntered" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 20 )
+volume_db = -13.983
+
+[node name="Background" type="AudioStreamPlayer" parent="."]
+volume_db = -12.235
+
+[node name="BG" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 54 )
+pitch_scale = 1.01
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 26 )
+anims/Start = SubResource( 27 )
+
+[connection signal="focus_exited" from="Start" to="." method="_on_Start_focus_exited"]
+[connection signal="pressed" from="Start" to="." method="_on_Start_pressed"]
+[connection signal="focus_exited" from="Fullscreen" to="." method="_on_Fullscreen_focus_exited"]
+[connection signal="pressed" from="Fullscreen" to="." method="_on_Fullscreen_pressed"]
+[connection signal="focus_exited" from="Exit" to="." method="_on_Exit_focus_exited"]
+[connection signal="pressed" from="Exit" to="." method="_on_Exit_pressed"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

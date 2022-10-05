@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/red carpet wooden floor.mp3-a8f5d02d0c4824df82d411a8fdce28fd.mp3str"
+
+[deps]
+
+source_file="res://Scripts/Sprites/AssetsAula/soundtrack/red carpet wooden floor.mp3"
+dest_files=[ "res://.import/red carpet wooden floor.mp3-a8f5d02d0c4824df82d411a8fdce28fd.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
